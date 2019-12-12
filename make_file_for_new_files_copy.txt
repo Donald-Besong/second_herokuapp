@@ -1,0 +1,7 @@
+NEW_FILE = .bokeh_heroku/bitcoins.html
+
+if_newfile_conflict:
+	git restore --staged $(NEW_FILE )
+	
+add_new_file_locally:
+	"git add $(NEW_FILE )
